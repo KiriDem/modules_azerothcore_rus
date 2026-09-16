@@ -8,6 +8,6 @@
 * Автоматическая сортировка реагентов по категориям
 * Нет ограничений на объем хранилища
 
-## Screenshots
+## Снимки экрана оригинальной версии
 ![Capture](https://user-images.githubusercontent.com/98835050/157975217-0cc09b62-1043-4f6f-8dfa-7bf8541c3a4a.PNG)
 ![Capture2](https://user-images.githubusercontent.com/98835050/157975251-31c8a8f8-ce59-44f9-8afc-39237861dc5f.PNG)
