@@ -1,12 +1,12 @@
 # mod-reagent-bank
 ## AzerothCore Module
 
-This module adds a reagent banker similar to later WoW expansions. This banker can free bag space by holding crafting reagents for players.
+Этот модуль добавляет специального банкира для реагентов, подобного тем, что появились в более поздних дополнениях к WoW. Такой банкир позволяет освободить место в сумках, храня реагенты для профессий..
 
 ## Features
-* One-click button to deposit all reagents
-* Auto-sorting of reagents into categories
-* No storage limits
+* Кнопка для внесения всех реагентов одним нажатием
+* Автоматическая сортировка реагентов по категориям
+* Нет ограничений на объем хранилища
 
 ## Screenshots
 ![Capture](https://user-images.githubusercontent.com/98835050/157975217-0cc09b62-1043-4f6f-8dfa-7bf8541c3a4a.PNG)
