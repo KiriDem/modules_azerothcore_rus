@@ -1,4 +1,5 @@
-# <img width="200" height="200" alt="mod-dungeon-respawn" src="https://github.com/user-attachments/assets/7c973445-727d-481d-ae50-d510ae141be5" />
+# <img width="512" height="512" alt="mod-dungeon-respawn" src="https://github.com/user-attachments/assets/04e6772b-def5-4b98-8b81-0f58cf3509f5" />
+
 ## <img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/4a4f5015-c711-45b3-8d8e-bf2da63bf04f" /> Dungeon Respawn
 
 ## О модуле
