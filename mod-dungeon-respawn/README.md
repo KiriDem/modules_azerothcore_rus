@@ -2,7 +2,7 @@
 
 ## <img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/4a4f5015-c711-45b3-8d8e-bf2da63bf04f" /> Mod Dungeon Respawn
 
-## О модуле
+## Модуль AzerothCore
 
 Этот модуль телепортирует игрока к началу подземелья в случае смерти.
 
