@@ -1,19 +1,19 @@
 # ![logo](https://camo.githubusercontent.com/e4f036844d45424178f34d39dc3b0d52fdb82c07c5ef3c2aeb7e3da22c1538b3/68747470733a2f2f692e696d6775722e636f6d2f66517762386d332e706e67)Dungeon Respawn
 
-## About
+## О модуле
 
-This module will teleport the player to the start of the dungeon on death.
+Этот модуль телепортирует игрока к началу подземелья в случае смерти.
 
-## Install
+## Установка
 
-Just clone the module into your modules directory for your server, re-run cmake and compile.
+Просто склонируйте модуль в директорию модулей вашего сервера, заново запустите CMake и выполните компиляцию.
 
-Then enable the module in the module config.
+Затем включите модуль в его конфигурации..
 
-## Contact
+## Контакты автора оригинального мода
 
-If you need any help you can join my [Discord Server](https://discord.gg/xdVPGcpJ8C).
+Если вам нужна помощь, вы можете присоединиться к моему [Discord Server](https://discord.gg/xdVPGcpJ8C).
 
-## Credits
+## Создатели
 
-Thanks to Артём Борисов_99 from the AzerothCore Discord for the module suggestion.
+Спасибо Артёму Борисову_99 из Discord-сервера AzerothCore за идею модуля.
