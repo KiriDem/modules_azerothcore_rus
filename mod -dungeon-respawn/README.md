@@ -1,4 +1,4 @@
-# ![logo](https://camo.githubusercontent.com/e4f036844d45424178f34d39dc3b0d52fdb82c07c5ef3c2aeb7e3da22c1538b3/68747470733a2f2f692e696d6775722e636f6d2f66517762386d332e706e67)Dungeon Respawn
+#  Dungeon Respawn
 
 ## О модуле
 
