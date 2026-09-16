@@ -1,0 +1,17 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# Конфигурация Банка Реагентов
+########################################
+#
+#    ReagentBank.Enable
+#        Описание: Включить/Выключить Банк Реагентов
+#        Опции: 0 - Выключенно
+#               1 - Включенно
+#
+
+ReagentBank.Enable = 1
