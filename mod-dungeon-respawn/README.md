@@ -1,4 +1,4 @@
-# Dungeon Respawn
+# <img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/be9ff4d3-cf2b-4af8-87c3-c04d0b59fe85" /> Dungeon Respawn
 
 ## О модуле
 
