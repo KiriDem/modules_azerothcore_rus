@@ -1,4 +1,5 @@
-## mod-ah-bot-plus
+
+## <img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/093a515e-ac44-4e0a-812d-2e3d1847c71f" /> mod-ah-bot-plus
 
 ## Описание
 
