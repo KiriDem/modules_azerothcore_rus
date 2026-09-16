@@ -1,4 +1,4 @@
-# ![logo](https://github.com/KiriDem/modules_azerothcore_rus/edit/main/mod-dungeon-respawn/icon.png) Dungeon Respawn
+# Dungeon Respawn
 
 ## О модуле
 
