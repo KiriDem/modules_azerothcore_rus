@@ -1,4 +1,5 @@
-# mod-reagent-bank
+
+# <img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/173598b9-fef7-47e1-b5e3-dd623470eb90" /> mod-reagent-bank
 ## AzerothCore Module
 
 Этот модуль добавляет специального банкира для реагентов, подобного тем, что появились в более поздних дополнениях к WoW. Такой банкир позволяет освободить место в сумках, храня реагенты для профессий..
