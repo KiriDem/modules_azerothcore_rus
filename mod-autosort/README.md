@@ -23,7 +23,7 @@
 
 ## Дополнение
 
-Для удобства можно использовать аддон **CleanupBags**: https://github.com/silviu20092/CleanupBags
+Для удобства можно использовать аддон **CleanupBags**: https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-autosort/Addon/CleanupBags
 
 ## Конфигурация
 
