@@ -1,0 +1,6 @@
+## Interface: 30300
+## Title: CleanupBags
+## Notes: Adds a small "cleanup" button to the backpack that sends the mod-autosort related commands when clicked.
+## Author: silviu20092
+## Version: 1.0
+CleanupBags.lua
