@@ -1,4 +1,3 @@
-# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
 # <img width="200" height="200" alt="icon" src="https://github.com/user-attachments/assets/c14f6df6-e83c-4db1-956a-1f4b81d4d8e8" />
 ## <img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/ea8fbf29-862f-4063-b5f9-6a9224c82295" /> mod-TimeIsTime
 TimeIsTime — это модуль для AzerothCore, позволяющий регулировать скорость смены дня и ночи в World of Warcraft версии 3.3.5a.
