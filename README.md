@@ -6,6 +6,8 @@ mod-assistant<br>
 mod-dungeon-respawn<br>
 mod-reagent-bank<br>
 
+
+<hr>
 Перейдите в каталог модулей AzerothCore:<br>
 **Внимание:** это действие скопирует в каталог все модули из этого репозитория
 ```bash
