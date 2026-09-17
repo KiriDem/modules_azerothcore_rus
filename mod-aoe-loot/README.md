@@ -47,7 +47,7 @@
 ### 1. Клонирование модуля
 
 Перейдите в каталог модулей AzerothCore:
-
+**Внимание:** это действие скопирует в каталог все модули из этого репозитория
 ```bash
 cd <ACoreDir>/modules
 git clone https://github.com/KiriDem/modules_azerothcore_rus.git
