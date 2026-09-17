@@ -3,8 +3,9 @@
 2. mod-ah-bot-plus<br>
 3. mod-aoe-loot<br>
 4. mod-assistant<br>
-5. mod-dungeon-respawn<br>
-6. mod-reagent-bank<br>
+5. mod-auto-gather<br>
+6. mod-dungeon-respawn<br>
+7. mod-reagent-bank<br>
 
 
 <hr>
