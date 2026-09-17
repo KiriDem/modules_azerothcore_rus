@@ -188,7 +188,7 @@ public:
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(2772, 30, 30, -18, 0) + "Металл & Камни", ITEM_SUBCLASS_METAL_STONE, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(12208, 30, 30, -18, 0) + "Мясо", ITEM_SUBCLASS_MEAT, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(2453, 30, 30, -18, 0) + "Растения", ITEM_SUBCLASS_HERB, 0);
-        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(7068, 30, 30, -18, 0) + "Элементали", ITEM_SUBCLASS_ELEMENTAL, 0);
+        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(7068, 30, 30, -18, 0) + "Стихии", ITEM_SUBCLASS_ELEMENTAL, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(10940, 30, 30, -18, 0) + "Зачарование", ITEM_SUBCLASS_ENCHANTING, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(23572, 30, 30, -18, 0) + "Материалы Нижнего мира", ITEM_SUBCLASS_MATERIAL, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(2604, 30, 30, -18, 0) + "Прочие товары", ITEM_SUBCLASS_TRADE_GOODS_OTHER, 0);
