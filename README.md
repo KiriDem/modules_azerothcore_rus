@@ -4,8 +4,9 @@
 3. mod-aoe-loot<br>
 4. mod-assistant<br>
 5. mod-auto-gather<br>
-6. mod-dungeon-respawn<br>
-7. mod-reagent-bank<br>
+6. mod-autosort<br>
+7. mod-dungeon-respawn<br>
+8. mod-reagent-bank<br>
 
 
 <hr>
