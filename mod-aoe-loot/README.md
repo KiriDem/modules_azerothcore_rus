@@ -50,7 +50,7 @@
 
 ```bash
 cd <ACoreDir>/modules
-git clone https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-aoe-loot.git
+git clone https://github.com/KiriDem/modules_azerothcore_rus.git
 ```
 
 ### 2. Компиляция
