@@ -2,7 +2,7 @@
 
 # mod-aoe-loot
 
-[English](README.md) | [Español](README_ES.md)
+[Russian](README.md) | [English](README_EN.md)
 
 [![Build Status](https://github.com/azerothcore/mod-aoe-loot/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-aoe-loot/actions)
 
