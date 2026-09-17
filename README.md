@@ -1,17 +1,16 @@
 # Модули для AzerothCore на русском
-mod-TimeIsTime<br>
-mod-ah-bot-plus<br>
-mod-aoe-loot<br>
-mod-assistant<br>
-mod-dungeon-respawn<br>
-mod-reagent-bank<br>
+1. mod-TimeIsTime<br>
+2. mod-ah-bot-plus<br>
+3. mod-aoe-loot<br>
+4. mod-assistant<br>
+5. mod-dungeon-respawn<br>
+6. mod-reagent-bank<br>
 
 
 <hr>
+**Внимание:** это действие скопирует в каталог все модули из этого репозитория<br>
+Перейдите в каталог модулей AzerothCore и используйте команду:
 
-Перейдите в каталог модулей AzerothCore:<br>
-**Внимание:** это действие скопирует в каталог все модули из этого репозитория
 ```bash
-cd <ACoreDir>/modules
 git clone https://github.com/KiriDem/modules_azerothcore_rus.git
 ```
