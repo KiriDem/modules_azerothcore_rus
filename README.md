@@ -5,7 +5,7 @@
 4. mod-assistant<br>
 5. mod-auto-gather<br>
 6. mod-autosort<br>
-7. mod-dungeon-respawn<br>
+7. mod-dungeon-master<br>
 8. mod-reagent-bank<br>
 
 
