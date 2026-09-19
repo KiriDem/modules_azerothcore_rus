@@ -1,0 +1,55 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# Настройки Breaking News
+########################################
+#
+#    BreakingNews.Enable
+#        Описание: Включите отображение новостей на экране персонажа.
+#        По умолчанию:      0 - Выключенно
+#                           1 - Включенно
+#
+
+BreakingNews.Enable = 0
+
+#
+#    BreakingNews.Title
+#        Описание: Заголовок, который отображается над текстом новостей.
+#        По умолчанию:   "Breaking News"
+#
+
+BreakingNews.Title = "Breaking News"
+
+#
+#    BreakingNews.HtmlPath
+#        Описание: Путь к HTML-файлу, который будет отображаться как основной текст новостей.
+#        Примечание: Может быть абсолютным или относительным.
+#        По умолчанию:   "./breakingnews.html"
+#
+
+BreakingNews.HtmlPath = "./breakingnews.html"
+
+#
+#    BreakingNews.Cache
+#        Описание: Кэширует новости при запуске.
+#        Примечание: Если установить это значение равным 0, обновленные новости будут загружаться из файла при каждом входе в систему.
+#                        0 - Выключенно
+#        По умолчанию:   1 - Включенно
+#
+
+BreakingNews.Cache = 1
+
+#
+#    BreakingNews.Verbose
+#        Описание: Включает подробное протоколирование для отладки.
+#        Примечание: Не оставляйте это включенным в рабочей среде.
+#        По умолчанию:   0 - Выключенно
+#                        1 - Включенно
+#
+
+BreakingNews.Verbose = 0
+
