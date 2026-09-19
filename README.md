@@ -5,9 +5,11 @@
 4. mod-assistant<br>
 5. mod-auto-gather<br>
 6. mod-autosort<br>
-7. mod-dungeon-master<br>
-8. mod-reagent-bank<br>
-
+7. mod-breaking-news-override<br>
+8. mod-craftspeed<br>
+9. mod-dungeon-master<br>
+10. mod-gomove<br>
+11. mod-reagent-bank<br>
 
 <hr>
 **Внимание:** это действие скопирует в каталог все модули из этого репозитория.<br>
@@ -17,3 +19,7 @@
 ```bash
 git clone https://github.com/KiriDem/modules_azerothcore_rus.git
 ```
+
+# Иконки
+
+# Утилиты
