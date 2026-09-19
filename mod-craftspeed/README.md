@@ -1,4 +1,6 @@
-Craftspeed is an AzerothCore module that globally modifies the cast speed of crafting and tradeskill spells. Any spell that creates an item and requires reagent1 > 0 (DBC Reagent[0]) will have its cast time automatically scaled by a configurable multiplier.
+# mod-craftspeed
+
+Craftspeed — это модуль для AzerothCore, который глобально изменяет скорость применения заклинаний, связанных с созданием предметов и профессиональными навыками. Для любого заклинания, создающего предмет и требующего наличия хотя бы одного реагента (Reagent[0] в таблице DBC), время применения будет автоматически масштабироваться с использованием настраиваемого множителя.
 
 ✨ Функции
 
