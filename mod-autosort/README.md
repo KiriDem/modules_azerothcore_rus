@@ -25,6 +25,8 @@
 
 Для удобства можно использовать аддон **CleanupBags**: https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-autosort/Addon/CleanupBags
 
+<img width="365" height="425" alt="image" src="https://github.com/user-attachments/assets/3dba4bc3-e78e-4076-8e38-f8757da0b7d7" />
+
 ## Конфигурация
 
 Use **mod_autosort.conf** to customize module's settings. All settings there should be self-explanatory.
