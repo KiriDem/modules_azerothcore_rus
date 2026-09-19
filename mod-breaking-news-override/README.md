@@ -2,9 +2,7 @@
 
 # Breaking News Override
 
-![WoWScrnShot_031224_001040](https://github.com/azerothcore/mod-breaking-news-override/assets/2810187/9b7a8b74-4a55-4b00-9732-39695179bddd)
-
-![WoWScrnShot_031224_001046](https://github.com/azerothcore/mod-breaking-news-override/assets/2810187/4aed246d-c954-417e-8b91-fa1dd442a700)
+<img width="1330" height="1046" alt="image" src="https://github.com/user-attachments/assets/80594a1b-de84-41a6-8b4e-c3b9715c9608" />
 
 Этот модуль использует Warden Payload Manager для активации фрейма «Срочные новости» (Breaking News) в левой части экрана выбора персонажа.
 
