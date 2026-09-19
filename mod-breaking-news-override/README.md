@@ -2,7 +2,7 @@
 
 # Breaking News Override
 
-<img width="1330" height="1046" alt="image" src="https://github.com/user-attachments/assets/80594a1b-de84-41a6-8b4e-c3b9715c9608" />
+<img width="1260" height="1075" alt="image" src="https://github.com/user-attachments/assets/b1ac70a7-04e5-45b8-860c-6ed79c7b9a7b" />
 
 Этот модуль использует Warden Payload Manager для активации фрейма «Срочные новости» (Breaking News) в левой части экрана выбора персонажа.
 
