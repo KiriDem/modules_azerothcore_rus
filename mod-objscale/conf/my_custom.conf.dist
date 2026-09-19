@@ -1,0 +1,17 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# My module configuration
+########################################
+#
+#    MyModule.Enable
+#        Описание: Включить модуль
+#        По умолчанию:     0 - Выключенно
+#                          1 - Включенно
+#
+
+MyModule.Enable = 0
