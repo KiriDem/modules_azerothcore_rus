@@ -45,7 +45,8 @@ Have Fun while building some Stuff.
 
 ### UI-Overview
 
-![UI-Overview](/guide.jpg)
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/1e53ef33-7da8-44a6-a790-18291e6e42ea" />
+
 
 ### Advanced Usage
 
