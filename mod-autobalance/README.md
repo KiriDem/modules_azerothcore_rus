@@ -1,40 +1,37 @@
 # ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
 
-## Beta testing warning
+## Предупреждение о бета-тестировании
 
-The current version of the master branch is currently in beta, under testing to ensure all the functionalities are working properly.
-If you encur in problems please open an Issue and consider to use the last [stable version](https://github.com/azerothcore/mod-autobalance/releases/tag/stable) of this repository.
+Текущая версия ветки master в настоящее время находится в стадии бета-тестирования, чтобы убедиться, что все функциональные возможности работают должным образом. Если у вас возникли проблемы, пожалуйста, откройте Выпуск и рассмотрите возможность использования последней [стабильной версии](https://github.com/azerothcore/mod-autobalance/releases/tag/stable) этого репозитория.
 
 ## AutoBalance
 
-- Latest build status with azerothcore: [![Build Status](https://github.com/azerothcore/mod-autobalance/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-autobalance)
+Этот модуль предназначен для масштабирования в зависимости от количества игроков, мобов и здоровья боссов подземелий, маны и урона.
 
-This module is intended to scale based on number of players, instance mobs and bosses' health, mana, and damage.
+**ПРИМЕЧАНИЕ:** Для корректной работы этого модуля требуется по крайней мере [этот коммит](https://github.com/azerothcore/azerothcore-wotlk/commit/f127e583aae3cfa51a77d056c1892a7de07ffb52) AzerothCore. Более старые версии не поддерживаются.
 
-**NOTE:** This module requires at least [this commit](https://github.com/azerothcore/azerothcore-wotlk/commit/f127e583aae3cfa51a77d056c1892a7de07ffb52) of AzerothCore in order to work correctly. Older versions are not supported.
+Все настройки подробно описаны в файле конфигурации.
 
-All settings are well-described in the configuration file.
+**ПОЖАЛУЙСТА** включайте выходные данные команд `.ab mapstat` и `.ab creaturestat` (при нацеливании на проблемное существо) при сообщении о проблемах. Это поможет нам быстро выявить проблему и предложить решение.
 
-**PLEASE** include the output from the `.ab mapstat` and `.ab creaturestat` commands (while targeting a problematic creature) when reporting issues. This will help us to quickly identify the problem and provide a solution.
-
-## In-game Commands
-| Command | Permission | Description |
+## Внутриигровые команды
+| Команда | Разрешения | Описание |
 | :------ | :--------- | :---------- |
-| `.ab mapstat` | All Players | Displays AB-calcualted settings for the current map, including player count, difficulty, world modifiers, and others. |
-| `.ab creaturestat` | All Players | Displays AB-calculated settings for the targeted dungeon creature including level scaling, difficulty, modifiers, and boss status. |
-| `.ab setoffset` | Game Masters | Sets the server-wide player difficulty offset. Instances will be scaled as though they had this many more/less players than they really do. |
-| `.ab getoffset` | All Players | Gets the current server-wide player difficulty offset. Instances will be scaled as though they had this many more/less players than they really do. |
-| `.reload config` | Game Masters | Reloads all your configuration files, including `AutoBalance.conf`. This lets you update AutoBalance settings without restarting your worldserver. This module is designed to contiue to work as expected when this command is issued. |
+| `.ab mapstat` | Все Игроки | Отображает предварительно рассчитанные настройки для текущей карты, включая количество игроков, сложность, модификаторы мира и другие. |
+| `.ab creaturestat` | Все Игроки | Отображает рассчитанные AB настройки для целевого существа подземелья, включая масштабирование уровня, сложность, модификаторы и статус босса. |
+| `.ab setoffset` | GM | Устанавливает смещение сложности для игроков на уровне сервера. Подземелья будут масштабироваться так, как если бы в них было на столько больше / меньше игроков, чем на самом деле. |
+| `.ab getoffset` | Все Игроки | Получает текущее смещение сложности игрока на сервере. Подземелья будут масштабироваться так, как если бы в них было на столько больше / меньше игроков, чем на самом деле. |
+| `.reload config` | GM | Перезагружает все ваши файлы конфигурации, включая `AutoBalance.conf`. Это позволяет вам обновлять настройки автобалансировки без перезапуска вашего worldserver. Этот модуль предназначен для продолжения работы должным образом при выполнении этой команды. |
 
 ## Logger Names
-| Logger | Description |
+| Журнал | Описание |
 | :----- | ----------- |
-| `Logger.module.AutoBalance` | Main logger, verbose debug logs. Map detection, list management, creature adjustments, multiplier, modifiers. Catch-all. |
-| `Logger.module.AutoBalance_CombatLocking` | Debug logs related to the combat locking/unlocking mechanism for maps. |
-| `Logger.module.AutoBalance_DamageHealingCC` | Debug logs for the spell/melee/CC modifications that are made in real-time. |
-| `Logger.module.AutoBalance_StatGeneration` | Detailed debug logs that show all the calculation steps in how different multipliers are derived. |
+| `Logger.module.AutoBalance` | Подробные журналы отладки. Обнаружение карт, управление списками, настройка существ, множитель, модификаторы. ВСЕОХВАТЫВАЮЩИЙ. |
+| `Logger.module.AutoBalance_CombatLocking` | Журналы отладки, связанные с механизмом боевой блокировки / разблокировки карт. |
+| `Logger.module.AutoBalance_DamageHealingCC` | Журналы отладки для изменений заклинаний / ближнего боя / CC, которые вносятся в режиме реального времени. |
+| `Logger.module.AutoBalance_StatGeneration` | Подробные журналы отладки, в которых показаны все этапы вычисления того, как выводятся различные множители. |
 
 ## References
-- [Interactive Inflection Point Spreadsheet](https://docs.google.com/spreadsheets/d/100cmKIJIjCZ-ncWd0K9ykO8KUgwFTcwg4h2nfE_UeCc/copy)
-- [InflectionPoint Curve Examples](https://i.imgur.com/x42UnUR.png)
-- [Impact of CurveFloor and CurveCeiling on enemy multiplier](https://i.imgur.com/I8S4cwJ.png)
+- [Интерактивная таблица Point Spreadsheet](https://docs.google.com/spreadsheets/d/100cmKIJIjCZ-ncWd0K9ykO8KUgwFTcwg4h2nfE_UeCc/copy)
+- [Примеры кривой InflectionPoint](https://i.imgur.com/x42UnUR.png)
+- [Влияние CurveFloor и CurveCeiling на множитель противника](https://i.imgur.com/I8S4cwJ.png)
