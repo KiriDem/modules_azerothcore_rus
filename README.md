@@ -24,3 +24,6 @@ git clone https://github.com/KiriDem/modules_azerothcore_rus.git
 <img width="796" height="153" alt="image" src="https://github.com/user-attachments/assets/c296966b-4bf6-4cdc-9818-504d42220f80" />
 
 # Утилиты
+<img width="686" height="146" alt="image" src="https://github.com/user-attachments/assets/f6b90ee4-ab83-4fe2-a6cf-05027ead664d" />
+<br>
+<img width="981" height="509" alt="image" src="https://github.com/user-attachments/assets/a7c93346-906d-404f-887b-49ec13a677da" />
