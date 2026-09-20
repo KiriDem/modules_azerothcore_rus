@@ -28,18 +28,18 @@
 |   13    | ✔️ [mod-gomove](mod-gomove) | Этот модуль позволяет добавлять, удалять, перемещать, копировать, поворачивать и масштабировать игровые объекты |
 |   14    | ✔️ [mod-guildhouse](mod-guildhouse) | Система гильдейских домов |
 |   15    | ✔️ [mod-individual-progression](mod-individual-progression) | Имитирует процесс прохождения дополнений и их этапов для отдельных игроков |
-|        | ❌ [mod-individual-xp](mod-individual-xp) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-item-upgrade](mod-item-upgrade) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-junk-to-gold-plus](mod-junk-to-gold-plus) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-npc-buffer](mod-npc-buffer) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-npc-enchanter](mod-npc-enchanter) | 〰️〰️〰️〰️〰️〰️〰️ |
-|   16    | ✔️ [mod-objscale](mod-objscale) | Позволяет задавать масштаб игровых объектов и существ |
-|        | ❌ [mod-profession-progression](mod-profession-progression) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-quest-radar](mod-quest-radar) | 〰️〰️〰️〰️〰️〰️〰️ |
-|   17    | ✔️ [mod-reagent-bank](mod-reagent-bank) | Добавляет банкира для реагентов,  позволяет освободить место в сумках |
-|        | ❌ [mod-solocraft](mod-solocraft) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-solo-lfg](mod-solo-lfg) | 〰️〰️〰️〰️〰️〰️〰️ |
-|        | ❌ [mod-transmog](mod-transmog) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   16    | ❌ [mod-individual-xp](mod-individual-xp) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   17    | ❌ [mod-item-upgrade](mod-item-upgrade) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   18    | ❌ [mod-junk-to-gold-plus](mod-junk-to-gold-plus) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   19    | ❌ [mod-npc-buffer](mod-npc-buffer) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   20    | ❌ [mod-npc-enchanter](mod-npc-enchanter) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   21    | ✔️ [mod-objscale](mod-objscale) | Позволяет задавать масштаб игровых объектов и существ |
+|   22    | ❌ [mod-profession-progression](mod-profession-progression) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   23    | ❌ [mod-quest-radar](mod-quest-radar) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   24    | ✔️ [mod-reagent-bank](mod-reagent-bank) | Добавляет банкира для реагентов,  позволяет освободить место в сумках |
+|   25    | ❌ [mod-solocraft](mod-solocraft) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   26    | ❌ [mod-solo-lfg](mod-solo-lfg) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   27    | ❌ [mod-transmog](mod-transmog) | 〰️〰️〰️〰️〰️〰️〰️ |
 
 ### Легенда
 <table>
