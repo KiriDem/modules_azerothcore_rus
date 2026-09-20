@@ -21,7 +21,70 @@ This is done by setting the spawns scale to a custom value, which is independend
 
 ## How to use ingame
 
-#### Creatures
+#### Creatures# Objscale
+
+## Описание
+
+Этот модуль позволяет задавать масштаб (размер) игровых объектов (GameObject) и существ (Creature) для каждого конкретного случая появления (спавна). (Это порт патча [Objscale TC-Corepatch от Rochet2](https://github.com/Rochet2/TrinityCore/tree/objscale_3.3.5/src/server/scripts/Custom/objscale)).
+Это реализуется путем установки для спавна пользовательского значения масштаба, которое не зависит от шаблона и сохраняется в двух новых таблицах базы данных: objscale_creature и objscale_gameobject.
+
+![exampleCreature](exampleCreature.JPG)
+
+![exampleGameObject](exampleGameObject.JPG)
+
+
+## Как использовать в игре
+
+#### Существа
+
+Выберите существо (укажите его в качестве цели), а затем используйте следующую команду: 
+
+```
+npc_scale set X
+```
+
+replace X with any positive floatingpoint number
+
+#### Игровые объекты
+
+* Узнайте GUID нужного игрового объекта (например, подойдите к объекту и используйте команду `.gobject near`).
+
+* Используйте следующую команду, чтобы задать масштаб игрового объекта:
+
+  ```
+  gob_scale set Y X
+  ```
+
+  * Где Y — это GUID игрового объекта (GameObject), который нужно изменить (команда также принимает гиперссылки на игровые объекты, генерируемые командой `.gobject near`). 
+  * А X — это коэффициент масштабирования (используйте любое положительное число с плавающей запятой).
+
+  
+
+
+## Требования
+
+Для работы модуля objscale требуется:
+
+- AzerothCore с коммитом не ранее `6cf82e3bd6cd481405be04ae67afa30d280a91bf` (добавлен в основной репозиторий 6 мая 2022 г.)
+- ИЛИ: добавление двух необходимых хуков (`OnCreatureSaveToDB` и `OnGameObjectSaveToDB`) путем слияния (merge) изменений из репозитория https://github.com/Tralenor/azerothcore-wotlk/tree/On-Creature/GameObject-SaveToDB-Hook в ваш проект.
+
+## Установка
+
+```
+1) Просто выполните `git clone` модуля в директорию `modules` исходного кода AzerothCore или скопируйте его вручную.
+2) Вручную импортируйте SQL-файл в базу данных World.
+3) Повторно запустите cmake и выполните чистую сборку AzerothCore.
+```
+
+
+
+
+## Авторы
+
+* [Tralenor](https://github.com/Tralenor) (автор модуля)
+* [Rochet2](https://github.com/Rochet2) (Первоначальный автор Objscale)
+* AzerothCore: [репозиторий](https://github.com/azerothcore) - [сайт](http://azerothcore.org/) - [сообщество в чате discord](https://discord.gg/PaqQRkd)
+
 
 Select/target a Creature and then use the following Command: 
 
