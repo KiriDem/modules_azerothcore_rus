@@ -1,0 +1,53 @@
+# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
+
+# Модуль Guild House
+
+> [!IMPORTANT]
+> Вам необходимо использовать как минимум коммит AzerothCore. [77f1363](https://github.com/azerothcore/azerothcore-wotlk/commit/77f13636b75f9b25fc1290e297cd002e7df3c89b).
+
+## Описание
+
+This is a phased guild house system for AzerothCore, it allows players from the same guild to visit their guild house.
+
+All guilds will get their own phasing system and then the guild master can purchase NPC creatures and other stuff to complete the Guild House.
+
+### Покупки
+
+- Наставники классов (все доступные в Wrath)
+- Наставники основных профессий (все доступные в Wrath)
+- Наставники второстепенных профессий (все доступные в Wrath)
+- Торговцы: реагентами, едой и напитками, товарами для профессий, боеприпасами (с услугой ремонта), а также ядами
+- Порталы в нейтральные города, а также в города Орды и Альянса
+- Дух-целитель
+- Доступ к гильдейскому и личному банкам
+- Аукционист / Нейтральный аукционист
+- Смотритель стойл
+
+## Как использовать в игре
+
+1) После установки вам, как GM, нужно будет выполнить команду `.npc add 500030` в общедоступном месте, где игроки смогут найти этого NPC.
+2) Игроки могут приобрести дом гильдии у добавленного NPC, а затем телепортироваться в него через самого NPC или с помощью команд чата: `.guildhouse tele` или `.gh tele`.
+3) В каждом новом доме гильдии изначально есть портал в Оргриммар или Штормград (в зависимости от фракции: Орда или Альянс) и NPC-помощник (Дворецкий Гильдейского дома).
+4) Поговорите с помощником, чтобы начать приобретать улучшения для вашего дома гильдии!
+5) Члены гильдии, имеющие соответствующий ранг, смогут призвать помощника с помощью команд чата `.guildhouse butler` или `.gh butler`.
+
+## Installation
+
+```
+1) Поместите модуль в директорию `modules` исходного кода AzerothCore.
+2) Повторно запустите cmake и выполните чистую сборку AzerothCore.
+```
+
+## Изменить конфигурацию модуля (необязательно)
+
+Если вам нужно изменить конфигурацию модуля, перейдите в папку конфигурации сервера (туда, где находится `worldserver` или `worldserver.exe`), скопируйте `mod_guildhouse.conf.dist` в `mod_guildhouse.conf` и отредактируйте этот файл.
+
+## Авторы
+
+- [Talamortis](https://github.com/talamortis) (Первоначальный автор модуля)
+- [Rochet2](https://github.com/Rochet2/): Спасибо за помощь с ситуацией, связанной с поэтапным внедрением, и за поддержку в целом.
+- [rbedfordpro](https://github.com/rbedfordpro) & [WiZZy](https://github.com/wizzymore)
+- [Nelnamara - Porkserver](https://github.com/Porkserver) & [SoulSeekkor](https://github.com/SoulSeekkor) Переработка 2022 года, исправления вылетов и новые дополнения
+- [Bogir](https://github.com/Bogir) За то, что ты замечательный и всегда готов помочь
+
+AzerothCore: [repository](https://github.com/azerothcore) - [сайт](http://azerothcore.org/) - [сообщество в чате discord](https://discord.gg/64FH6Y8)
