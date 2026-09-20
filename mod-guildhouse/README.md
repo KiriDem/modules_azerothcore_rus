@@ -7,9 +7,9 @@
 
 ## Описание
 
-This is a phased guild house system for AzerothCore, it allows players from the same guild to visit their guild house.
+Это система гильдейских домов с использованием технологии фазирования для AzerothCore; она позволяет игрокам одной гильдии посещать свой гильдейский дом.
 
-All guilds will get their own phasing system and then the guild master can purchase NPC creatures and other stuff to complete the Guild House.
+Каждая гильдия получает собственную изолированную зону (фазу), где глава гильдии может приобретать NPC и различные объекты для обустройства гильдейского дома.
 
 ### Покупки
 
