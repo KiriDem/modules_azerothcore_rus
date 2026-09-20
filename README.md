@@ -1,4 +1,4 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+<img width="980" height="476" alt="azeroth-kiri" src="https://github.com/user-attachments/assets/635b0974-f2a0-4179-9f78-6d04cb753012" />
 
 # Модули для AzerpthCore
 
