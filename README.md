@@ -1,31 +1,52 @@
-# Модули для AzerothCore на русском
-1. [mod-TimeIsTime](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-TimeIsTime)<br>
-2. [mod-ah-bot-plus](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-ah-bot-plus)<br>
-3. [mod-aoe-loot](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-aoe-loot)<br>
-4. [mod-assistant](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-assistant)<br>
-5. [mod-auto-gather](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-auto-gather)<br>
-6. [mod-autobalance](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-autobalance)<br>
-7. [mod-autosort](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-autosort)<br>
-8. [mod-breaking-news-override](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-breaking-news-override)<br>
-9. [mod-craftspeed](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-craftspeed)<br>
-10. [mod-dress-npc](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-dress-npc)<br>
-11. [mod-dungeon-master](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-dungeon-master)<br>
-12. [mod-gomove](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-gomove)<br>
-13. [mod-reagent-bank](https://github.com/KiriDem/modules_azerothcore_rus/tree/main/mod-reagent-bank)<br>
+# Individual Player Progression
 
-<hr>
-**Внимание:** это действие скопирует в каталог все модули из этого репозитория.<br>
-Включая папки ICO и Tools<br>
-Перейдите в каталог модулей AzerothCore и используйте команду:
+## Модуль для Azerothcore
 
-```bash
-git clone https://github.com/KiriDem/modules_azerothcore_rus.git
-```
+Этот модуль имитирует процесс прохождения дополнений и их этапов (тиров) для отдельных игроков.
 
-# Иконки
-<img width="796" height="153" alt="image" src="https://github.com/user-attachments/assets/c296966b-4bf6-4cdc-9818-504d42220f80" />
+Каждый этап спроектирован так, чтобы воссоздать атмосферу и условия соответствующего дополнения, насколько это позволяют ограничения клиента WotLK. Это означает, что контент оригинальной версии игры (Vanilla) представлен в том же виде, в каком он существовал в эпоху Vanilla WoW.
 
-# Утилиты
-<img width="686" height="146" alt="image" src="https://github.com/user-attachments/assets/f6b90ee4-ab83-4fe2-a6cf-05027ead664d" />
-<br>
-<img width="981" height="509" alt="image" src="https://github.com/user-attachments/assets/a7c93346-906d-404f-887b-49ec13a677da" />
+Главная цель модуля — сосредоточиться на игровом пути самого игрока. Все механики ускоренной прокачки («catch-up») были удалены. Здесь нет задачи как можно скорее достичь эндгейма или искать «свежий» сервер, поскольку каждый новый персонаж — это уникальный игровой опыт.
+
+Стоит учесть, что для работы этого модуля либо требуется слаженная игра большого количества людей, либо необходима корректировка размера рейдов, чтобы отдельные группы могли продвигаться по контенту. Модуль отлично сочетается с системами Playerbots и NPCbots.
+
+Контент низкого уровня, добавленный в более поздних дополнениях, но не относящийся к средствам ускоренной прокачки, удален НЕ был. Сюда входят стартовые зоны дренеев и эльфов крови, профессии «Начертание» и «Ювелирное дело», новые задания и локации, добавленные в мир Vanilla в дополнении TBC, и так далее. Я считаю, что этот контент не нарушает целостность игрового процесса так, как это делают механики ускоренной прокачки. Для тех, кто предпочитает максимально аутентичный мир Vanilla, часть этого контента можно (по желанию) скрыть до выхода соответствующего патча, в котором он был изначально введен; подробности см. в дополнительных SQL-файлах.
+
+## Некоторые из включенных функций
+* NPC и игровые объекты отслеживают прогресс каждого игрока, отображаемый в зависимости от его прогресса.
+* Восстановление контента, который был удален, ослаблен или выпущен в более позднем патче. Например, оригинальные квесты на получение доступа в Наксрамасе, Ониксии и TBC, элитные существа на открытых локациях и навыки верховой езды.
+* Переработка существ и квестов оригинальной игры. (Восстановлены интеллектуальный ИИ, шансы выпадения предметов из квестов, время возрождения существ, патрули и места появления.)
+* Дополнительная настройка силы и лечения для контента оригинальной игры и TBC для имитации оригинальной сложности мира.
+* Эмблемы WotLK выпадают в зависимости от вашего прогресса.
+* Оригинальная версия AV
+* Прогресс на острове Кель'Данас
+* Поддержка ботов игроков
+
+Здесь вы найдете список всех [изменений](https://github.com/ZhengPeiRu21/mod-individual-progression/wiki/List-of-Changes) и [уровней прогрессии](https://github.com/ZhengPeiRu21/mod-individual-progression/wiki/List-of-Progression-Tiers).
+
+Предусмотрены настройки, позволяющие изменять игровой процесс в соответствии с предпочтениями. Пожалуйста, обратитесь к файлу конфигурации.
+
+## Как установить
+Пожалуйста, ознакомьтесь [Как установить](https://github.com/ZhengPeiRu21/mod-individual-progression/wiki/How-to-Install)
+
+## Пожалуйста, обратите внимание!
+Этот модуль использует настройки игрока (Player Settings) для сохранения индивидуального прогресса персонажа. *Убедитесь, что в файле worldserver.conf параметр EnablePlayerSettings установлен в значение 1, иначе прогресс не сохранится!* Кроме того, чтобы изменения характеристик предметов вступили в силу, убедитесь, что параметр *DBC.EnforceItemAttributes установлен в значение 0*! Это позволит модулю заменить характеристики предметов на их корректные значения из версии Vanilla.
+
+### Дополнительные файлы данных
+Некоторые изменения, касающиеся контента Vanilla и TBC, требуют модификации файлов DBC. Файл .mpq для клиента и файлы .dbc для сервера находятся в папке «optional». Эти изменения включают, например, требование использовать для разведения костров реагенты из версии Vanilla (кремень и огниво), использование реагентов Vanilla (а не TBC) для наложения чар уровня 60, корректировку процесса прокачки профессий и т. д. Использование этих файлов необязательно: модуль будет работать и без данного патча, однако соответствующие рецепты сохранят свой вид, характерный для версии WotLK.
+
+### Рекомендуемое дополнительное расширение (необязательное)
+Для большей аутентичности некоторые игроки могут предпочесть поведение, существовавшее до версии 3.2, когда цены на предметы отображались во всплывающих подсказках только при взаимодействии с торговцем.
+Поскольку это регулируется на стороне клиента, я создал аддон, который возвращает такой режим работы. Найти аддон можно здесь: https://github.com/ZhengPeiRu21/hide-vendor-price
+
+## Discord
+[https://discord.gg/PTXxh3KSgQ](https://discord.gg/PTXxh3KSgQ)
+
+## Спасибо
+Особая благодарность следующим участникам и проектам, благодаря которым стало возможным создание этого модуля:
+* AzerothCore и TrinityCore, а также их предшественник — MaNGOS.
+* AzerothCore mod-war-effort
+* AzerothCore mod-pvp-titles
+* vMangos — для версии Vanilla и данных о прогрессии патчей
+* cMangos — для игровых данных TBC
+* Sogladev — для скриптов и данных Naxxramas (версии на 40 игроков)
