@@ -1,0 +1,23 @@
+######################################
+# Настройки мода mod-junk-to-gold-plus
+######################################
+
+#  JunkToGoldPlus.Enable
+#    Описание:  Enable or disable the module.
+#
+#    По умолчанию: 1 (Включенно)
+#
+#    Возможные значения: 0 = Выключенно, 1 = Включенно
+#
+JunkToGoldPlus.Enable = 1
+
+#  JunkToGoldPlus.EnableSaleChat
+#    Описание:  Show chat message when an item is auto-sold.
+#
+#    Note:         Only used when JunkToGoldPlus.Enable = 1.
+#
+#    По умолчанию: 1 (Включенно)
+#
+#    Возможные значения: 0 = Выключенно, 1 = Включенно
+#
+JunkToGoldPlus.EnableSaleChat = 1
