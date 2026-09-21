@@ -30,7 +30,7 @@
 |   14    | ✔️ [mod-guildhouse](mod-guildhouse) | Система гильдейских домов |
 |   15    | ✔️ [mod-individual-progression](mod-individual-progression) | Имитирует процесс прохождения дополнений и их этапов для отдельных игроков |
 |   16    | ✔️ [mod-individual-xp](mod-individual-xp) | Позволяет игроку изменять свой множитель опыта |
-|   17    | ❌ [mod-item-upgrade](mod-item-upgrade) | Добавляет возможность индивидуального улучшения характеристик предметов |
+|   17    | ✔️ [mod-item-upgrade](mod-item-upgrade) | Добавляет возможность индивидуального улучшения характеристик предметов |
 |   18    | ❌ [mod-junk-to-gold-plus](mod-junk-to-gold-plus) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   19    | ❌ [mod-npc-buffer](mod-npc-buffer) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   20    | ❌ [mod-npc-enchanter](mod-npc-enchanter) | 〰️〰️〰️〰️〰️〰️〰️ |
