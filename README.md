@@ -32,7 +32,7 @@
 |   16    | ✔️ [mod-individual-xp](mod-individual-xp) | Позволяет игроку изменять свой множитель опыта |
 |   17    | ✔️ [mod-item-upgrade](mod-item-upgrade) | Добавляет возможность индивидуального улучшения характеристик предметов |
 |   18    | ✔️ [mod-junk-to-gold-plus](mod-junk-to-gold-plus) | Автоматически продает предметы серого качества, сразу после их получения. |
-|   19    | ❌ [mod-npc-buffer](mod-npc-buffer) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   19    | ✔️ [mod-npc-buffer](mod-npc-buffer) | NPC накладывающий на игрока определенный набор усиливающих заклинаний |
 |   20    | ❌ [mod-npc-enchanter](mod-npc-enchanter) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   21    | ✔️ [mod-objscale](mod-objscale) | Позволяет задавать масштаб игровых объектов и существ |
 |   22    | ❌ [mod-profession-progression](mod-profession-progression) | 〰️〰️〰️〰️〰️〰️〰️ |
