@@ -35,7 +35,7 @@
 |   19    | ✔️ [mod-npc-buffer](mod-npc-buffer) | NPC накладывающий на игрока определенный набор усиливающих заклинаний |
 |   20    | ✔️ [mod-npc-enchanter](mod-npc-enchanter) | NPC накладывающий на экипировку игрока определенный набор усиливающих заклинаний |
 |   21    | ✔️ [mod-objscale](mod-objscale) | Позволяет задавать масштаб игровых объектов и существ |
-|   22    | ❌ [mod-profession-progression](mod-profession-progression) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   22    | ✔️ [mod-profession-progression](mod-profession-progression) | Позволяет выучить с течением времени все профессии |
 |   23    | ❌ [mod-quest-radar](mod-quest-radar) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   24    | ✔️ [mod-reagent-bank](mod-reagent-bank) | Добавляет банкира для реагентов,  позволяет освободить место в сумках |
 |   25    | ❌ [mod-solocraft](mod-solocraft) | 〰️〰️〰️〰️〰️〰️〰️ |
