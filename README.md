@@ -31,7 +31,7 @@
 |   15    | ✔️ [mod-individual-progression](mod-individual-progression) | Имитирует процесс прохождения дополнений и их этапов для отдельных игроков |
 |   16    | ✔️ [mod-individual-xp](mod-individual-xp) | Позволяет игроку изменять свой множитель опыта |
 |   17    | ✔️ [mod-item-upgrade](mod-item-upgrade) | Добавляет возможность индивидуального улучшения характеристик предметов |
-|   18    | ❌ [mod-junk-to-gold-plus](mod-junk-to-gold-plus) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   18    | ✔️ [mod-junk-to-gold-plus](mod-junk-to-gold-plus) | Автоматически продает предметы серого качества, сразу после их получения. |
 |   19    | ❌ [mod-npc-buffer](mod-npc-buffer) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   20    | ❌ [mod-npc-enchanter](mod-npc-enchanter) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   21    | ✔️ [mod-objscale](mod-objscale) | Позволяет задавать масштаб игровых объектов и существ |
