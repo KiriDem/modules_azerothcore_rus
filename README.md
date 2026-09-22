@@ -38,7 +38,7 @@
 |   22    | ✔️ [mod-profession-progression](mod-profession-progression) | Позволяет выучить с течением времени все профессии |
 |   23    | ✔️ [mod-quest-radar](mod-quest-radar) | Показывает местоположение целей текущих заданий |
 |   24    | ✔️ [mod-reagent-bank](mod-reagent-bank) | Добавляет банкира для реагентов,  позволяет освободить место в сумках |
-|   25    | ❌ [mod-solocraft](mod-solocraft) | 〰️〰️〰️〰️〰️〰️〰️ |
+|   25    | ✔️ [mod-solocraft](mod-solocraft) | Корректирует характеристики игроков в рейдах в зависимости от количества участников группы |
 |   26    | ❌ [mod-solo-lfg](mod-solo-lfg) | 〰️〰️〰️〰️〰️〰️〰️ |
 |   27    | ❌ [mod-transmog](mod-transmog) | 〰️〰️〰️〰️〰️〰️〰️ |
 
