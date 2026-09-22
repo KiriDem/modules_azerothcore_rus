@@ -1,0 +1,13 @@
+## Interface: 30300
+## Title: Quest Radar
+## Notes: Cataclysm-style quest objectives on the WotLK 3.3.5 minimap
+## Author: Warblups
+## Version: 0.9.0
+## SavedVariables: QuestRadarDB
+## OptionalDeps: !Astrolabe
+
+Libs\Astrolabe\Load.xml
+
+QuestRadar.lua
+Sync.lua
+Options.lua
