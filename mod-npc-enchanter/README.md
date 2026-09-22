@@ -1,7 +1,7 @@
 # ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
 
 >[!WARNING] 
-Данный модуль не работает. Это временно завтра поправлю.
+💩 Данный модуль не работает. Это временно завтра поправлю.
 
 ## Модуль Enchanter NPC
 _Этот модуль был создан для [StygianCore](https://rebrand.ly/stygiancoreproject). Репак World of Warcraft 3.3.5a для одиночной игры / LAN от StygianTheBest | [GitHub](https://rebrand.ly/stygiangithub) | [сайт](https://rebrand.ly/stygianthebest))_
