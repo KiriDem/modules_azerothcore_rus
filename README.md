@@ -2,7 +2,7 @@
 
 <img width="980" height="476" alt="azeroth-kiri2" src="https://github.com/user-attachments/assets/4a125dc6-ba54-438c-bc1f-09b9df35e29b" />
 
-# Модули для AzerpthCore
+# Модули для AzerothCor
 
 Здесь собранны модули для AzerothCore в той или иной степени переведенные на русский язык.<br>
 
