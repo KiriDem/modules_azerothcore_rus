@@ -301,8 +301,8 @@ namespace ProfessionProgression
         if (notify && Announce() && player->GetSession())
         {
             ChatHandler(player->GetSession()).PSendSysMessage(
-/*                "|cff00ff99Profession Progression:|r Известны %u/%u основные профессии. Свободные слоты для профессий: %u. Эра: %s, кап: %u.",*/
-                "На этом сервере работает модуль |cff00ff99Profession Progression:|r.",
+/*                "|cff00ff99Profession Progression:|r %u/%u основных профессий. Свободные слоты для профессий: %u. Эра: %s, кап: %u.", */
+                "На этом сервере работает модуль |cff00ff99Profession Progression|r.",
                 known, allowed, free, EraName(), MaxSkillCap());
         }
     }
