@@ -23,15 +23,15 @@ enum
 
     ASSISTANT_GOSSIP_TEXT            = 48,
 
-    ASSISTANT_VENDOR_HEIRLOOM_WEAPON = 9000000,
-    ASSISTANT_VENDOR_HEIRLOOM_ARMOR  = 9000001,
-    ASSISTANT_VENDOR_HEIRLOOM_OTHER  = 9000002,
-    ASSISTANT_VENDOR_GLYPH           = 9000003,
-    ASSISTANT_VENDOR_GEM             = 9000023,
-    ASSISTANT_VENDOR_ELIXIR          = 9000030,
-    ASSISTANT_VENDOR_FOOD            = 9000033,
-    ASSISTANT_VENDOR_ENCHANT         = 9000034,
-    ASSISTANT_VENDOR_CONTAINER       = 9000045,
+    ASSISTANT_VENDOR_HEIRLOOM_WEAPON = 700000,
+    ASSISTANT_VENDOR_HEIRLOOM_ARMOR  = 700001,
+    ASSISTANT_VENDOR_HEIRLOOM_OTHER  = 700002,
+    ASSISTANT_VENDOR_GLYPH           = 700003,
+    ASSISTANT_VENDOR_GEM             = 700023,
+    ASSISTANT_VENDOR_ELIXIR          = 700030,
+    ASSISTANT_VENDOR_FOOD            = 700033,
+    ASSISTANT_VENDOR_ENCHANT         = 700034,
+    ASSISTANT_VENDOR_CONTAINER       = 700045,
 
     PROFESSION_LEVEL_APPRENTICE      = 75,
     PROFESSION_LEVEL_JOURNEYMAN      = 150,
@@ -100,7 +100,7 @@ enum
 #define GOSSIP_UTILITIES_APPEARANCE "Хочу изменить внешность"
 #define GOSSIP_UTILITIES_RACE "Хочу сменить расу"
 #define GOSSIP_UTILITIES_FACTION "Хочу сменить фракцию"
-#define GOSSIP_UTILITIES_IN_PROGRESS "Необходимо завершить выполнение ранее активированной функции, прежде чем переходить к другой."
+#define GOSSIP_UTILITIES_IN_PROGRESS "Прежде чем пытаться выполнить другое действие, необходимо завершить предыдущее."
 #define GOSSIP_UTILITIES_DONE "Теперь вы можете выйти из игры, чтобы продолжить использование активированной функции."
 #define GOSSIP_FLIGHT_PATHS "Я хочу открыть маршруты полетов"
 #define GOSSIP_FLIGHT_PATHS_KALIMDOR_EASTERN_KINGDOMS "Калимдор и Восточные королевства"
@@ -129,7 +129,8 @@ enum
 #define GOSSIP_INSTANCES_RAID "Я хочу сбросить рейды"
 #define GOSSIP_INSTANCES_PLAYER "Только для меня"
 #define GOSSIP_INSTANCES_GROUP "Для всей моей группы"
-#define GOSSIP_INSTANCES_HEROIC_RESET "Все героические подземелья сброшены." #define GOSSIP_INSTANCES_HEROIC_GROUP_RESET "Героические подземелья вашей группы были сброшены."
+#define GOSSIP_INSTANCES_HEROIC_RESET "Все героические подземелья сброшены."
+#define GOSSIP_INSTANCES_HEROIC_GROUP_RESET "Героические подземелья вашей группы были сброшены."
 #define GOSSIP_INSTANCES_RAID_RESET "Все рейды были сброшены."
 #define GOSSIP_INSTANCES_RAID_GROUP_RESET "Рейды вашей группы были сброшены."
 
